@@ -23,6 +23,9 @@ button{
     border: none;
     border-radius: 5px;
     box-shadow: 0.5px 1px #888888;
+    color: #52154e;
+    font-family: Poppins;
+    font-weight: bolder;
 }
 
 i{

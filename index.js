@@ -2,6 +2,7 @@ let inputEl = document.getElementById("input-el")
 let buttonEl = document.getElementById("button-el")
 let listEl = document.getElementById("list-el")
 let alertEl = document.getElementById("alert-el")
+let button1El = document.getElementById("button1-el")
 let content = inputEl.value
  
 let tasks=[]
@@ -35,7 +36,15 @@ function renderTasks(){
         inputEl.value=null
         
         alertEl.textContent = "You have" + " " + tasks.length + " " +"pending task(s)"
-        console.log(listEl)
+       
+if( tasks.length > 1){
+    
+    button1El.innerHTML= "<button onclick='clearOff()'>Clear All</button>"
+    
+} else{
+    button1El.innerHTML=""
+}
+
     }
 }
 
@@ -47,20 +56,25 @@ function deleteEl(i){
     listEl.innerHTML = " "
     
     renderTasks()
-    console.log(tasks.length) 
+    
     alertEl.textContent = "You have" + " " + tasks.length + " " +"pending task(s)"
 }
 
- 
 
- 
-if(listEl.innerHTML = " "){
+
+function clearOff(){
+     
+    tasks= []
+    button1El.innerHTML=""
+    renderTasks()
+    alertEl.textContent = "You have" + " " + tasks.length + " " +"pending task(s)"
+
+
+
 
 }
-else{
-    console.log("apio")
-}
 
+ 
 
 
 
