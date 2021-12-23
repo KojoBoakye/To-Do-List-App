@@ -6,25 +6,27 @@
 body{
     text-align: center;
     font-family: Oooh Baby;
-    background-color: rgb(145, 58, 148);
+   background-color: thistle;
+    
 }
 
 
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top:150px;
     font-size: 50px;
 }
 
 button{
-    padding: 8px 10px 8px 10px;
-    background-color: white;
+    padding: 10px 12px 10px 12px;
+    background-color: thistle;
     border: none;
     border-radius: 5px;
+    box-shadow: 0.5px 1px #3d3d3d;
 }
 
 i{
-    color:rgb(145, 58, 148);
+    color:rgb(0, 0, 0);
 }
 
 input{
@@ -32,24 +34,33 @@ input{
     padding: 8px 12px 8px 12px;
     border: none;
     border-radius: 5px;
-    color:rgb(145, 58, 148) ;
+    color:rgb(0, 0, 0) ;
     width:400px;
     height: 20px;
     font-weight: bolder;
+    display: inline-block;
     
+}
+
+
+ul{
+    text-align: center;
+    margin-right: 74px;
 }
 
 li{
    
     list-style: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
+    font-weight: lighter;
     font-family: Poppins;
-     background-color:rgb(95, 45, 97) ;
+     background-color: #ffffff ;
      width: 425px;
+      display: inline-block;
      margin-top: 10px;
      border-radius: 5px;
-     margin-left: 490px;
+     
      padding: 0%;
       
     
@@ -58,14 +69,15 @@ li{
 
 #delete-el{
 float: right;
-height:44px;
+height:45px;
 width: 50px;
+box-shadow: 0.5px 1px #525151;
 }
 
 
 p{
     font-family: Poppins;
-    color:white;
+    color:rgb(3, 0, 0);
     font-weight: lighter;
 }
  

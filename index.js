@@ -37,11 +37,11 @@ function renderTasks(){
     for (i=0 ; i< tasks.length ; i++){
 
     
-        listEl.innerHTML += "<li>" + tasks[i] + " <button id='delete-el' onclick='deleteEl("+i+")'><i id= 'uji' class='fa fa-trash'></i></button></li>"
+        listEl.innerHTML += "<li>" + tasks[i] + " <button id='delete-el' onclick='deleteEl("+i+")'><i id= 'uji' class='fa fa-trash'></i></button></li> <br>"
     
         inputEl.value=null
         let width = tasks.length 
-
+        
         
          
          alertEl.textContent = "You have" + " " + width + " " +"pending task(s)"
@@ -63,6 +63,7 @@ function deleteEl(i){
     tasks.splice(i , 1)
     console.log(tasks)
     listEl.innerHTML = " "
+    
     renderTasks()
      
 }
