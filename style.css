@@ -35,17 +35,32 @@ input{
     color:rgb(145, 58, 148) ;
     width:400px;
     height: 20px;
+    font-weight: bolder;
     
 }
 
 li{
+   
     list-style: none;
     color: white;
-    font-weight: bolder;
     font-size: 30px;
-    
+    font-family: Poppins;
+     background-color:rgb(95, 45, 97) ;
+     width: 425px;
+     margin-top: 10px;
+     border-radius: 5px;
+     margin-left: 490px;
+     padding: 0%;
+      
     
     
 }
 
+#delete-el{
+float: right;
+height:44px;
+width: 50px;
+}
+
+ 
 
