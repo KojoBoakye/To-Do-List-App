@@ -39,7 +39,7 @@ function renderTasks(){
        
 if( tasks.length > 1){
     
-    button1El.innerHTML= "<button onclick='clearOff()'>Clear All</button>"
+    button1El.innerHTML= "<button id='clear-el' onclick='clearOff()'>Clear All</button>"
     
 } else{
     button1El.innerHTML=""

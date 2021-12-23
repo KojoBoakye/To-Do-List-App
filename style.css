@@ -6,30 +6,43 @@
 body{
      
     font-family: Oooh Baby;
-   background-color: #52154e;
+   background-color:rgb(214, 237, 243) ;
     text-align: center;
+   
 }
+
+#body-el{
+    background-color: #0b2027 ;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+
+} 
+
+
+
 
 
 h1{
     color: #ffffff;
     margin-top:150px;
     font-size: 50px;
+    padding-top: 20px;
 }
 
 button{
-    padding: 10px 12px 10px 12px;
-    background-color: #f9cff2;
+    padding: 9px 13px 9px 13px;
+    background-color: #e16036;
     border: none;
     border-radius: 5px;
-    box-shadow: 0.5px 1px #888888;
-    color: #52154e;
+    color: #ffffff;
     font-family: Poppins;
     font-weight: bolder;
 }
 
 i{
-    color:#52154e ;
+    color:white ;
 }
 
 input{
@@ -60,7 +73,7 @@ li{
     position: relative;
     margin-bottom: 8px;
     padding: 0 15px;
-    background-color: #f9cff2;
+    background-color: #03b5aa;
     padding-right: 0%;
     text-align: left;
     font-family: Poppins;
@@ -68,12 +81,16 @@ li{
     display: inline-block;
     max-width: 400px;
     overflow: hidden;
+    color: white;
 }
 
  
  
  
-
+#clear-el{
+    background-color:#db2955 ;
+    margin-bottom:20px;
+}
 
 
 
@@ -89,9 +106,9 @@ li{
  float: right;
 height:40px;
 width: 40px;
-box-shadow: 0.5px 1px #525151;
+ 
 margin-top: 0;
-background-color: #ffffff;
+background-color: #db2955;
 }
 
 
@@ -99,6 +116,7 @@ p{
     font-family: Poppins;
     color: #ffffff;
     font-weight: lighter;
+    padding-bottom: 20px;
 }
  
 
