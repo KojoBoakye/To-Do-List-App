@@ -1,0 +1,45 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Oooh+Baby&family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap');
+ 
+
+
+body{
+    text-align: center;
+    font-family: Oooh Baby;
+    background-color: rgb(145, 58, 148);
+}
+
+
+h1{
+    color: white;
+    margin-top:150px;
+    font-size: 50px;
+}
+
+button{
+    padding: 8px 10px 8px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+i{
+    color:rgb(145, 58, 148);
+}
+
+input{
+    background: white;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color:rgb(145, 58, 148) ;
+    width:400px;
+    height: 20px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+
