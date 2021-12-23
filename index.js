@@ -31,11 +31,11 @@ function renderTasks(){
     for (i=0 ; i< tasks.length ; i++){
 
     
-        listEl.innerHTML += "<li>" + tasks[i] + "<button id='delete-el' onclick='deleteEl("+i+")'><i id= 'uji' class='fa fa-trash'></i></button></li> <br>"
+        listEl.innerHTML += "<li>" + "<span>"+ tasks[i] + "</span><button id='delete-el' onclick='deleteEl("+i+")'><i id= 'uji' class='fa fa-trash'></i></button> </li> <br>"
         inputEl.value=null
         
         alertEl.textContent = "You have" + " " + tasks.length + " " +"pending task(s)"
-       
+        console.log(listEl)
     }
 }
 
@@ -54,7 +54,12 @@ function deleteEl(i){
  
 
  
+if(listEl.innerHTML = " "){
 
+}
+else{
+    console.log("apio")
+}
 
 
 
