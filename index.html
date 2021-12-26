@@ -12,23 +12,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
  
     </head>
 
     <body>
+
+        <div id="icon-el" > <i class="fa fa-sun-o" id="sun"></i></div>
         <div onclick="toggle()" id="all-el">
         <div id="big-el"><div id="small-el"></div></div>  
        </div> 
-        <div id="body-el">
+        <div id="body-el"  data-aos="fade-up">
        <h1 id="first-el">ToDo List</h1>
-       <input id="input-el" placeholder="Enter Here...">
-       <button id="button-el" onclick="buttonClick()"><i class="fa fa-plus"></i></button>
-       <ul id="list-el">
+       <input id="input-el" placeholder="Enter Here..."  data-aos="fade-up">
+       <button id="button-el" onclick="buttonClick()"  data-aos="fade-down"><i class="fa fa-plus"></i></button>
+       <ul id="list-el"  data-aos="fade-down">
        </ul>
        <p id="alert-el" ></p>
-       <div id="button1-el"></div>
+       <div id="button1-el" ></div>
     </div>
         <script src="index.js"    ></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({  duration: 400});
+        
+        </script>
+      
     </body>
 </html>

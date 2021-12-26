@@ -9,6 +9,7 @@ let toggleEl = document.getElementById("all-el")
 let indicatorEl = document.getElementById("small-el")
 let backindicatorEl = document.getElementById("big-el")
 let bigbodyEl = document.querySelector("body")
+let iconEl = document.getElementById("icon-el") 
 let tasks=[]
  
 
@@ -86,6 +87,11 @@ function clearOff(){
  backindicatorEl.style.cssText="background:white;"
  bigbodyEl.style.cssText="background:#0b2027;"
  inputEl.style.cssText="background:#B1D0E0; color:white;"
+ iconEl.innerHTML="     <i class='fa fa-moon-o' id='moon'></i> "
+
+
+
+
 
 
  toggleEl.addEventListener("click" , function(){
@@ -94,6 +100,8 @@ function clearOff(){
     backindicatorEl.style.cssText="background:rgb(70, 71, 71);"
     bigbodyEl.style.cssText="background:rgb(214, 237, 243);"
     inputEl.style.cssText="background:white;"
+    iconEl.innerHTML=" <i class='fa fa-sun-o' id='sun'></i> "
+
     toggleEl.addEventListener("click" , function(){
 
         toggle()

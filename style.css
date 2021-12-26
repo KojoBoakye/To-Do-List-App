@@ -140,11 +140,34 @@ p{
     box-shadow:1px 0.5px rgb(160, 158, 158) ;
  
 }
+#icon-el{
+  
+    position: absolute;
+    left: 92%;
+    top: 13px;
 
+}
 
 #all-el{
    margin-left: 90%;
-
-
+   display: inline-flex;
+   
+   
+}
+#icon-el #moon{
+    color: white;
 }
  
+#icon-el #sun {
+    color: rgb(70, 71, 71);
+}
+
+@media only screen and (max-width: 1000px) {
+    #icon-el{
+  
+        position: absolute;
+        left: 85%;
+        top: 13px;
+    
+    }
+  }
