@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>ToDo List</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -15,9 +15,13 @@
 
  
     </head>
+
     <body>
+        <div onclick="toggle()" id="all-el">
+        <div id="big-el"><div id="small-el"></div></div>  
+       </div> 
         <div id="body-el">
-       <h1>ToDo List</h1>
+       <h1 id="first-el">ToDo List</h1>
        <input id="input-el" placeholder="Enter Here...">
        <button id="button-el" onclick="buttonClick()"><i class="fa fa-plus"></i></button>
        <ul id="list-el">
